@@ -1,6 +1,6 @@
 // Code your solution in this file
 function findMatching (arr, str) {
-  let selectDrivers = arr.filter(name=>fin(name, str));
+  let selectDrivers = arr.filter(name=>findName(name, str));
   return selectDrivers
 }
 
